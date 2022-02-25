@@ -13,6 +13,8 @@
 		FAFBEF4027C8AEC40075C6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFBEF3E27C8AEC40075C6DF /* Main.storyboard */; };
 		FAFBEF4227C8AEC50075C6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFBEF4127C8AEC50075C6DF /* Assets.xcassets */; };
 		FAFBEF4527C8AEC50075C6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFBEF4327C8AEC50075C6DF /* LaunchScreen.storyboard */; };
+		FAFBEF4D27C8AEE60075C6DF /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAFBEF4C27C8AEE60075C6DF /* ProfileView.xib */; };
+		FAFBEF4F27C8AFC30075C6DF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEF4E27C8AFC30075C6DF /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAFBEF4127C8AEC50075C6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAFBEF4427C8AEC50075C6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAFBEF4627C8AEC50075C6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFBEF4C27C8AEE60075C6DF /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		FAFBEF4E27C8AFC30075C6DF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FAFBEF3A27C8AEC40075C6DF /* SceneDelegate.swift */,
 				FAFBEF3C27C8AEC40075C6DF /* ViewController.swift */,
 				FAFBEF3E27C8AEC40075C6DF /* Main.storyboard */,
+				FAFBEF4C27C8AEE60075C6DF /* ProfileView.xib */,
+				FAFBEF4E27C8AFC30075C6DF /* ProfileView.swift */,
 				FAFBEF4127C8AEC50075C6DF /* Assets.xcassets */,
 				FAFBEF4327C8AEC50075C6DF /* LaunchScreen.storyboard */,
 				FAFBEF4627C8AEC50075C6DF /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFBEF4D27C8AEE60075C6DF /* ProfileView.xib in Resources */,
 				FAFBEF4527C8AEC50075C6DF /* LaunchScreen.storyboard in Resources */,
 				FAFBEF4227C8AEC50075C6DF /* Assets.xcassets in Resources */,
 				FAFBEF4027C8AEC40075C6DF /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFBEF4F27C8AFC30075C6DF /* ProfileView.swift in Sources */,
 				FAFBEF3D27C8AEC40075C6DF /* ViewController.swift in Sources */,
 				FAFBEF3927C8AEC40075C6DF /* AppDelegate.swift in Sources */,
 				FAFBEF3B27C8AEC40075C6DF /* SceneDelegate.swift in Sources */,
@@ -305,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
