@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9EE8FD27C8BAEB005D2DC3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE8FC27C8BAEB005D2DC3 /* Profile.storyboard */; };
+		FA9EE8FF27C8BB19005D2DC3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE8FE27C8BB19005D2DC3 /* ProfileViewController.swift */; };
 		FAFBEF3927C8AEC40075C6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEF3827C8AEC40075C6DF /* AppDelegate.swift */; };
 		FAFBEF3B27C8AEC40075C6DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEF3A27C8AEC40075C6DF /* SceneDelegate.swift */; };
 		FAFBEF3D27C8AEC40075C6DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBEF3C27C8AEC40075C6DF /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA9EE8FC27C8BAEB005D2DC3 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		FA9EE8FE27C8BB19005D2DC3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FAFBEF3527C8AEC40075C6DF /* Netology_IB_Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netology_IB_Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFBEF3827C8AEC40075C6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFBEF3A27C8AEC40075C6DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				FAFBEF3E27C8AEC40075C6DF /* Main.storyboard */,
 				FAFBEF4C27C8AEE60075C6DF /* ProfileView.xib */,
 				FAFBEF4E27C8AFC30075C6DF /* ProfileView.swift */,
+				FA9EE8FC27C8BAEB005D2DC3 /* Profile.storyboard */,
+				FA9EE8FE27C8BB19005D2DC3 /* ProfileViewController.swift */,
 				FAFBEF4127C8AEC50075C6DF /* Assets.xcassets */,
 				FAFBEF4327C8AEC50075C6DF /* LaunchScreen.storyboard */,
 				FAFBEF4627C8AEC50075C6DF /* Info.plist */,
@@ -133,6 +139,7 @@
 			files = (
 				FAFBEF4D27C8AEE60075C6DF /* ProfileView.xib in Resources */,
 				FAFBEF4527C8AEC50075C6DF /* LaunchScreen.storyboard in Resources */,
+				FA9EE8FD27C8BAEB005D2DC3 /* Profile.storyboard in Resources */,
 				FAFBEF4227C8AEC50075C6DF /* Assets.xcassets in Resources */,
 				FAFBEF4027C8AEC40075C6DF /* Main.storyboard in Resources */,
 			);
@@ -147,6 +154,7 @@
 			files = (
 				FAFBEF4F27C8AFC30075C6DF /* ProfileView.swift in Sources */,
 				FAFBEF3D27C8AEC40075C6DF /* ViewController.swift in Sources */,
+				FA9EE8FF27C8BB19005D2DC3 /* ProfileViewController.swift in Sources */,
 				FAFBEF3927C8AEC40075C6DF /* AppDelegate.swift in Sources */,
 				FAFBEF3B27C8AEC40075C6DF /* SceneDelegate.swift in Sources */,
 			);
@@ -301,7 +309,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +336,7 @@
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
